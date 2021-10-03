@@ -29,5 +29,5 @@ function plusMinus(arr) {
 }
 
 /*
-Obtained "Congratulations! You have passed the sample test cases." result in HackerRank.
+Obtained "Congratulations! You solved this challenge." result in HackerRank.
 */
