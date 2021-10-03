@@ -9,9 +9,9 @@ REFACTORED VERSION
 function miniMaxSum(arr) {
     const array = arr.sort(); // Sort the array to ensure the lowest number is at the beginning and the highest at the end
     const sum = array.reduce((previous, current) => previous + current); // Find the sum of all elements of the array
-    const minSum = sum - array[array.length - 1]; // The minimum sum will be the sum of all minus the biggest number (now sorted at the end)
-    const maxSum = sum - array[0]; // The maximum sum will be the sum of all minus the smallest number (now sorted at the beginning)
-    console.log(minSum, maxSum);
+    const minValue = sum - array[array.length - 1]; // The minimum value will be the sum of all numbers minus the biggest one (now sorted at the end)
+    const maxValue = sum - array[0]; // The maximum value will be the sum of all numbers minus the smallest one (now sorted at the beginning)
+    console.log(minValue, maxValue);
 }
 
 /*
