@@ -45,12 +45,12 @@ function miniMaxSum(arr) {
     const maxArray = arr.slice();
     maxArray.splice(maxForeignerIndex, 1);
     
-    // Add all 4 remaining elements of each array
-    const minSum = minArray.reduce((previous, current) => previous + current);
-    const maxSum = maxArray.reduce((previous, current) => previous + current);
+    // Sum all 4 remaining elements of each array
+    const minValue = minArray.reduce((previous, current) => previous + current);
+    const maxValue = maxArray.reduce((previous, current) => previous + current);
     
     // Log both results in the same line
-    console.log(minSum, maxSum);
+    console.log(minValue, maxValue);
 }
 
 /*
