@@ -54,5 +54,5 @@ function miniMaxSum(arr) {
 }
 
 /*
-Obtained "Congratulations! You solved this challenge." result in HackerRank.
+Obtained "Congratulations! You solved this challenge." result and 100% score in HackerRank.
 */
